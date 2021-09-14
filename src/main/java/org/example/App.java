@@ -19,18 +19,13 @@ public class App {
         int convertedFirstNumber=Integer.parseInt(firstNumber);
         int convertedSecondNumber=Integer.parseInt(secondNumber);
 
-        //Calculating sum
         int sum=convertedFirstNumber+convertedSecondNumber;
 
-        //Calculating  difference
         int difference=convertedFirstNumber-convertedSecondNumber;
 
-        //Calculating  multiplication
         int multiplication=convertedFirstNumber*convertedSecondNumber;
 
-        //Calculating  quotient
         int quotient=convertedFirstNumber/convertedSecondNumber;
-
 
         System.out.println(convertedFirstNumber+" + "+convertedSecondNumber+" = "+sum);
         System.out.println(convertedFirstNumber+" - "+convertedSecondNumber+" = "+difference);
